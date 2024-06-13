@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'realworld-roster',
   templateUrl: './roster.component.html',
-  styleUrls: [],
+  styleUrls: ['./roster.component.css'],
   providers: [],
   imports: [],
   standalone: true,
