@@ -12,7 +12,7 @@
             <th>Name</th>
             <th>Total Articles</th>
             <th>Total Favorites</th>
-            <th>First Article Date</th>
+            <th>First Article Posted</th>
           </tr>
         </thead>
         <tbody>
@@ -20,7 +20,7 @@
             <td><a [href]="user.profileLink">{{ user.name }}</a></td>
             <td>{{ user.totalArticles }}</td>
             <td>{{ user.totalFavorites }}</td>
-            <td>{{ user.firstArticleDate ? (user.firstArticleDate | date: 'mediumDate') : 'N/A' }}</td>
+            <td>{{ user.firstArticleDate ? (user.firstArticleDate | date: 'mediumDate') : "" }}</td>
           </tr>
         </tbody>
       </table>
